@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>annuaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Mon annuaire</h1>
+
+    <p>Nombre d'utilisateurs : <span id="nombre">0</span></p>
+
+    <button id="trier">Trier par ville</button>
+    <button id="cacher">Cacher les e-mails</button>
+
+    <p id="message"></p>
+
+    <div id="zone"></div>
+    <template id="modele-carte">
+        <div class="carte">
+            <h2 class="nom"></h2>
+            <p class="email"></p>
+            <p class="ville"></p>
+            <p class="telephone"></p>
+            <p class="entreprise"></p>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
